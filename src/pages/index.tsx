@@ -27,7 +27,7 @@ const Home: React.FC<PageProps> = () => (
     </SubscribeTab>
     <Contact />
     <Sponsorship />
-    <Publicity />
+    {/* <Publicity /> */}
   </Layout>
 );
 

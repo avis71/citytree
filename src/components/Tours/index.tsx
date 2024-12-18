@@ -37,10 +37,10 @@ const Page: React.FC<PageProps> = () => {
       <Intro />
       <ForageTour />
       <Sessions />
-      <TamiTour />
-      <EinatLecture />
       <VirtualTour />
       <AbraKadabra />
+      <TamiTour />
+      <EinatLecture />
     </Layout>
   );
 };
