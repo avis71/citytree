@@ -84,7 +84,7 @@ const images = [
 ];
 
 const Box: React.FC = () => (
-  <BoxInner fullHeight color="#fff5f1">
+  <BoxInner fullHeight color="#f5e9d8ff">
     <Title>סדרת אדמה בזום עם תמי צרי</Title>
     <Paragraph>
       בזמן אדמיות, ליתר דיוק ב-8 בינואר, תתחיל סדרת אדמה בזום עם תמי – 4 מפגשים שלא תוכלו לצאת מהם
@@ -101,7 +101,7 @@ const Box: React.FC = () => (
       <br /> מחבקות מוזמנות להצטרף ללא תשלום נוסף, וכולן כולן מוזמנות להירשם בעמוד הנחמד שהקמנו:
     </Paragraph>
     <ButtonWrapper>
-      <LinkButton href={PAGES.soilSeriesForm} target="_blank" bgcolor="#385958">
+      <LinkButton href={PAGES.soilSeriesForm} target="_blank" bgcolor="#532c10">
         לפרטים והרשמה לסדרת האדמה
       </LinkButton>
     </ButtonWrapper>
@@ -115,7 +115,7 @@ const Box: React.FC = () => (
 );
 
 const VirtualTour: React.FC = () => (
-  <Tour bgcolor="#4a3b35" anchor="virtual" box={<Box />} images={images} reverseLayout />
+  <Tour bgcolor="#532c10ff" anchor="virtual" box={<Box />} images={images} reverseLayout />
 );
 
 export default VirtualTour;

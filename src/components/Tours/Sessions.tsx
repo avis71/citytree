@@ -84,7 +84,7 @@ const images = [
 ];
 
 const Box: React.FC = () => (
-  <BoxInner fullHeight color="#cfe5e3">
+  <BoxInner fullHeight color="#dcf8f1" style={{color: '#1b1e2d'}}>
     <Title>חובז׳ות וכישופים בתל חובז׳</Title>
     <Paragraph>משיבות חיים לאדמה - מתחילות ב-8/1 ב-19:00 בתל חובז׳</Paragraph>
     <Paragraph>
@@ -96,7 +96,7 @@ const Box: React.FC = () => (
       קומפוסט. ברוכות השבות.
     </Paragraph>
     <ButtonWrapper>
-      <LinkButton href={PAGES.soilSeriesForm} target="_blank" bgcolor="#385958">
+      <LinkButton href={PAGES.soilCourseForm} target="_blank" bgcolor="#385958" style={{color: "#8fdef4"}}>
         לפרטים והרשמה
       </LinkButton>
     </ButtonWrapper>

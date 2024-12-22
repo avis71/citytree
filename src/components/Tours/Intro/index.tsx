@@ -7,7 +7,7 @@ import { tamiPhoneLink, einatPhoneLink } from 'src/constants';
 import { TopParallaxContent, BoxInner, Container, Hero, Wrapper, Title, Paragraph } from './styles';
 
 const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => (
-  <Container style={{ transform: `translateY(${offsetY}px)`, color: 'white' }}>
+  <Container style={{ transform: `translateY(${offsetY}px)`, color: '#e6f1d6' }}>
     <Row bgcolor='342e11ff'>
       <Col md={12} lg={9}>
         <BoxInner>

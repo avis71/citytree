@@ -84,8 +84,9 @@ export enum PAGES {
 
   // forms
   soilSeriesForm = 'https://citytree.minisite.ms/SoilSeries',
+  soilCourseForm = 'https://citytree.minisite.ms/SoilSeries',
   lecturesForm = 'https://docs.google.com/forms/d/e/1FAIpQLSe5fQf-dTVV4smr82rRXO8RqvZan1ejCB8qwE3w7XeQnElz9Q/viewform',
-  alonForagingForm = 'https://docs.google.com/forms/d/18-AbZvz5--Y3tDqGGomnw3mUBzPwnpxowejOLO6sNyE',
+  alonForagingForm = 'https://forms.gle/HmhGHZZYLt414LSK8',
   tamiSoilLectureForm = 'https://docs.google.com/forms/d/1_SMkvqgOhbFZDlE8BtIor1RCe1ActxVdt7Xkxt4nex4',
   urbanForagingSeries = 'https://citytree.minisite.ms/UrbanForagingSeries',
   comingHomeAutumn = 'https://citytree.minisite.ms/ComingHomeAutumn',
