@@ -96,12 +96,18 @@ const Box: React.FC = () => (
       הבוטניקה, הפואטיקה, הפיזיקה והמוזיקה. במפגש עם אלון אפשר לקבל תשובות על שאלות בענייני תזונה או
       גינון, אקלים או קונספירציה, וכשנחה עליו הרוח, אלון גם מקריא משיריו.
     </Paragraph>
-    <Paragraph grow>אורך הסיור והמחיר מותאמים לגודל הקבוצה ולצרכיה.</Paragraph>
     <ButtonWrapper>
       <LinkButton href={PAGES.urbanForagingSeries} target="_blank" bgcolor="#3d5937">
-        לפרטים ולהרשמה
+        לפרטים והרשמה למחזור סיורים או לסיור הקרוב{' '}
       </LinkButton>
     </ButtonWrapper>
+    <br />
+    <Paragraph grow>
+      * ניתן גם להזמין סיור משלכם ולהתאימו לגודל הקבוצה ולצרכיה:{' '}
+      <a href={PAGES.alonForagingForm} target="_blank">
+        לטופס הזמנת סיור
+      </a>
+    </Paragraph>
   </BoxInner>
 );
 

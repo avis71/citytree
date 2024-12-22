@@ -1,32 +1,40 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Parallax } from 'react-parallax';
-import topImage from 'src/assets/images/tours/Citytree_PorterTour_19_alex.jpeg';
+import topImage from 'src/assets/images/tours/citytree_tour_og.jpg';
 import bottomImage from 'src/assets/images/tours/CityTree_Pomegranet_02_tami.jpg';
 import { tamiPhoneLink, einatPhoneLink } from 'src/constants';
 import { TopParallaxContent, BoxInner, Container, Hero, Wrapper, Title, Paragraph } from './styles';
 
 const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => (
-  <Container style={{ transform: `translateY(${offsetY}px)` }}>
-    <Row>
+  <Container style={{ transform: `translateY(${offsetY}px)`, color: 'white' }}>
+    <Row bgcolor='342e11ff'>
       <Col md={12} lg={9}>
         <BoxInner>
-          <Title>הרצאות סיורים וסדנאות מאת א'נשות העץ</Title>
-          <Paragraph>הדרך הטובה ביותר להיחשף לידע שלנו היא… לפגוש אותנו!</Paragraph>
+          <Title>תוכנית השיבה הביתה</Title>
           <Paragraph>
-            במשך 16 שנים חיינו יחדיו בלב תל אביב, בדירה האקולוגית להפליא של עץבעיר, שם חקרנו
-            והתנסינו, ושם פגשנו את מי שרצו להיחשף לידע ולנסיון שנצבר בעץבעיר. במרץ 2023 עזבנו את
-            כיכר ביאליק והתחלנו פרק חדש שפותח לנו אפשרויות חדשות למפגש.
+            איך להכין קומפוסט בשיטות שונות?
+            <br />
+            מה אפשר ללקט ברחובות העיר?
+            <br />
+            איך להשיג ולהכין מזון מיטיב? 
+            <br />
+            איך לטפח גינה אקולוגית?  
+            <br />
+            איך לחיות ביחד? 
+            <br />
+            איך לנקות את הבית מרעלים? 
+            <br/>
+            ולבסוף – מדוע כל הדברים הטובים האלה נשארים בשוליים?
+            </Paragraph>
+
+          <Paragraph>
+            תוכנית השיבה הביתה מביאה את כל מה שלמדנו ב-16 שנות חיים בדירה האקולוגית. התוכנית מחזורית
+            ומחולקת לסדרות על פי הזמנים והעונות. הלימוד מתרחש בעולם האמיתי ובזום, בחומרים מוקלטים,
+            מצולמים וכתובים שכולם מרוכזים בדף של עץבעיר בפטראון. אפשר להצטרף ללימוד בכל עת.
           </Paragraph>
           <Paragraph>
-            מוזמנים ומוזמנות לעיין באפשרויות וליצור איתנו קשר גם אם יש לכן משהו שונה בראש. ממילא כל
-            מפגש, הרצאה או סיור נתפרים בהתאם לצרכים הספציפיים של מי שפונים אלינו.
-          </Paragraph>
-          <Paragraph>
-            נשמח לשמוע מכן, בטלפון/ווטצאפ: {tamiPhoneLink} (תמי) או {einatPhoneLink} (עינת)
-          </Paragraph>
-          <Paragraph>
-            <b>דפדפו ותמצאו את ההרצאה או הסיור שמתאים לכן...</b>
+          * המחבקות של העץ מקבלות גישה לכל חומרי התוכנית ולמפגשי הזום ללא תשלום נוסף, על המפגשים בעולם האמיתי הן מוזמנות לשלם כמה שמתאים להן.
           </Paragraph>
         </BoxInner>
       </Col>
@@ -36,7 +44,7 @@ const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => 
 
 const Intro: React.FC = () => (
   <Wrapper>
-    <Parallax bgImage={topImage} strength={200}>
+    <Parallax bgImage={topImage} strength={200} >
       <TopParallaxContent />
     </Parallax>
     <Parallax
@@ -44,7 +52,7 @@ const Intro: React.FC = () => (
       renderLayer={(percentage) => {
         const offsetY = percentage < 0.9 ? -175 * (0.9 - percentage) : 0;
         return (
-          <Hero image={bottomImage} boxColor="#f2f9cfde" position="left">
+          <Hero image={bottomImage} boxColor="#342e11ff" position="left">
             <Content offsetY={offsetY} />
           </Hero>
         );

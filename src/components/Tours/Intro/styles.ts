@@ -10,7 +10,7 @@ import { HEADER_HEIGHT } from 'src/components/Header';
 import { breakpoints } from 'src/utils';
 
 export const TopParallaxContent = styled.div`
-  height: calc(100vh - ${HEADER_HEIGHT}px);
+  height: calc(60vh - ${HEADER_HEIGHT}px);
 
   @media ${breakpoints.sm} {
     height: calc(90vh - ${HEADER_HEIGHT}px);
@@ -25,7 +25,7 @@ export const Container = styled(BSContainer)`
 `;
 
 export const BoxInner = styled(BoxInnerComponent)`
-  padding: 30px 60px;
+  padding: 20px 40px;
 
   @media ${breakpoints.sm} {
     padding: 30px;
