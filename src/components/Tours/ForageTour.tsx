@@ -84,7 +84,7 @@ const images = [
 ];
 
 const Box: React.FC = () => (
-  <BoxInner fullHeight color="#d0dfcc">
+  <BoxInner fullHeight color="#c2d8b8ff">
     <Title>סיור ליקוט עם ד"ר אלון אלירן</Title>
     <Paragraph>
       בילוי בין הבניינים, בגינות הקהילתיות ובחצרות האחוריות, עם החבר, עם המשפחה או עם החבר'ה

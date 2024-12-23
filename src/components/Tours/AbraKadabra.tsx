@@ -113,7 +113,7 @@ const Box: React.FC = () => (
 );
 
 const AbraKadabra: React.FC = () => (
-  <Tour bgcolor="#4a3b35" anchor="abrakadabra" box={<Box />} images={images} reverseLayout />
+  <Tour bgcolor="#593758ff" anchor="abrakadabra" box={<Box />} images={images} reverseLayout />
 );
 
 export default AbraKadabra;

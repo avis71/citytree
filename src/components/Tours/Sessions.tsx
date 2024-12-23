@@ -105,13 +105,8 @@ const Box: React.FC = () => (
       לשמוע ממך עם כל שאלה, תהייה או בקשה: 0584227531
     </Paragraph>
     <ButtonWrapper>
-      <LinkButton
-        href={PAGES.soilCourseForm}
-        target="_blank"
-        bgcolor="#385958"
-        style={{ color: '#8fdef4' }}
-      >
-        לפרטים לפרטים והרשמה לסדרת האדמה
+      <LinkButton href={PAGES.soilCourseForm} target="_blank" bgcolor="#385958">
+        לפרטים והרשמה לסדרת האדמה
       </LinkButton>
     </ButtonWrapper>
   </BoxInner>
