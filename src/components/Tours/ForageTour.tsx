@@ -9,7 +9,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_ForageTour_02_Einat.jpg"
+        src="../../assets/images/tours/CityTree_Forage_alon_830.jpg"
         alt=""
         placeholder="none"
         width={720}

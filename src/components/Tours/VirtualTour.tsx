@@ -95,16 +95,17 @@ const Box: React.FC = () => (
       מהי אדמה, מתי ולמה היא סולקה? איך מחזירות את האדמה הביתה - אל הבית שלנו, הגוף שלנו, התודעה
       שלנו? מהי אדמיות?
     </Paragraph>
-    <Paragraph grow>
+    <Paragraph>
       נוריד את זה לקרקע! לכאן ועכשיו, בעיר ובכפר.
       <br /> ימי רביעי ב-19:00, משיבות חיים לאדמה.
-      <br /> מחבקות מוזמנות להצטרף ללא תשלום נוסף, וכולן כולן מוזמנות להירשם בעמוד הנחמד שהקמנו:
+      <br /> מחבקות מוזמנות להצטרף ללא תשלום נוסף:
     </Paragraph>
     <ButtonWrapper>
       <LinkButton href={PAGES.soilSeriesForm} target="_blank" bgcolor="#532c10">
         לפרטים והרשמה לסדרת האדמה
       </LinkButton>
     </ButtonWrapper>
+    <br />
     <Paragraph>
       * ניתן גם להזמין את תמי להרצאה בפני המעגל שלכם:{' '}
       <a href={PAGES.tamiSoilLectureForm} target="_blank">
