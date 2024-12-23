@@ -105,7 +105,7 @@ const Box: React.FC = () => (
 );
 
 const TamiLecture: React.FC = () => (
-  <Tour bgcolor="#385958" anchor="tami" box={<Box />} images={images}  />
+  <Tour bgcolor="#385958" anchor="tami" box={<Box />} images={images} />
 );
 
 export default TamiLecture;

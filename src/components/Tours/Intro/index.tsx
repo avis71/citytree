@@ -8,7 +8,7 @@ import { TopParallaxContent, BoxInner, Container, Hero, Wrapper, Title, Paragrap
 
 const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => (
   <Container style={{ transform: `translateY(${offsetY}px)`, color: '#e6f1d6' }}>
-    <Row bgcolor='342e11ff'>
+    <Row bgcolor="342e11ff">
       <Col md={12} lg={9}>
         <BoxInner>
           <Title>תוכנית השיבה הביתה</Title>
@@ -17,16 +17,16 @@ const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => 
             <br />
             מה אפשר ללקט ברחובות העיר?
             <br />
-            איך להשיג ולהכין מזון מיטיב? 
+            איך להשיג ולהכין מזון מיטיב?
             <br />
-            איך לטפח גינה אקולוגית?  
+            איך לטפח גינה אקולוגית?
             <br />
-            איך לחיות ביחד? 
+            איך לחיות ביחד?
             <br />
-            איך לנקות את הבית מרעלים? 
-            <br/>
+            איך לנקות את הבית מרעלים?
+            <br />
             ולבסוף – מדוע כל הדברים הטובים האלה נשארים בשוליים?
-            </Paragraph>
+          </Paragraph>
 
           <Paragraph>
             תוכנית השיבה הביתה מביאה את כל מה שלמדנו ב-16 שנות חיים בדירה האקולוגית. התוכנית מחזורית
@@ -34,7 +34,8 @@ const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => 
             מצולמים וכתובים שכולם מרוכזים בדף של עץבעיר בפטראון. אפשר להצטרף ללימוד בכל עת.
           </Paragraph>
           <Paragraph>
-          * המחבקות של העץ מקבלות גישה לכל חומרי התוכנית ולמפגשי הזום ללא תשלום נוסף, על המפגשים בעולם האמיתי הן מוזמנות לשלם כמה שמתאים להן.
+            * המחבקות של העץ מקבלות גישה לכל חומרי התוכנית ולמפגשי הזום ללא תשלום נוסף, על המפגשים
+            בעולם האמיתי הן מוזמנות לשלם כמה שמתאים להן.
           </Paragraph>
         </BoxInner>
       </Col>
@@ -44,7 +45,7 @@ const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => 
 
 const Intro: React.FC = () => (
   <Wrapper>
-    <Parallax bgImage={topImage} strength={200} >
+    <Parallax bgImage={topImage} strength={200}>
       <TopParallaxContent />
     </Parallax>
     <Parallax

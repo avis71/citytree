@@ -11,7 +11,7 @@ function Publicity() {
   return (
     <Hero image={image} boxColor="#f8fbe4d6" anchor="publicity">
       <Container className="publicity">
-      <Row className="row">
+        <Row className="row">
           <Col lg={6}>
             <BoxInner>
               <Title>2019 - רוני קובן ביקר </Title>

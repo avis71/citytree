@@ -88,8 +88,8 @@ const Header: React.FC = () => {
                   >
                     <div onClick={stopPropagation}>
                       <NavDropdown.Item href={formatPath(PAGES.virtual)}>
-                      עושות חיים בבית: סדרת אדמה
-                       </NavDropdown.Item>
+                        עושות חיים בבית: סדרת אדמה
+                      </NavDropdown.Item>
                       {/* <NavDropdown.Item
                         className="disabled"
                         onClick={showModal}
