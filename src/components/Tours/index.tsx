@@ -39,8 +39,8 @@ const Page: React.FC<PageProps> = () => {
       <VirtualTour />
       <Sessions />
       <AbraKadabra />
-      <TamiTour />
-      <EinatLecture />
+      {/* <TamiTour />
+      <EinatLecture /> */}
     </Layout>
   );
 };
