@@ -25,10 +25,10 @@ export const Container = styled(BSContainer)`
 `;
 
 export const BoxInner = styled(BoxInnerComponent)`
-  padding: 20px 40px;
+  padding: 20px 20px;
 
   @media ${breakpoints.sm} {
-    padding: 30px;
+    padding: 20px;
   }
 `;
 
@@ -59,5 +59,5 @@ export const Title = styled(BoxTitle)`
 `;
 
 export const Paragraph = styled(BoxParagraph)`
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 `;

@@ -9,6 +9,7 @@ export const BoxInner = styled(BoxInnerComponent)`
     display: block;
     text-align: start;
   }
+  padding: 30 10px;
 
   ${LinkButton} {
     font-size: 20px;
@@ -24,12 +25,13 @@ export const BoxInner = styled(BoxInnerComponent)`
     text-align: justify;
     font-size: 18px;
     line-height: 23px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 `;
 
 export const ButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 `;

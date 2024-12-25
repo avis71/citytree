@@ -8,9 +8,9 @@ import { TopParallaxContent, BoxInner, Container, Hero, Wrapper, Title, Paragrap
 
 const Content: React.FC<{ offsetY?: number }> = React.memo(({ offsetY = 0 }) => (
   <Container style={{ transform: `translateY(${offsetY}px)`, color: '#e6f1d6' }}>
-    <Row bgcolor="342e11ff">
+    <Row>
       <Col md={12} lg={9}>
-        <BoxInner>
+        <BoxInner fullHeight color="#342e1190">
           <Title>תוכנית השיבה הביתה</Title>
           <Paragraph>
             איך להכין קומפוסט בשיטות שונות?
