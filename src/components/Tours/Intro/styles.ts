@@ -1,28 +1,18 @@
 import styled from 'styled-components';
-import { Container as BSContainer } from 'react-bootstrap';
+import { Col as BSCol, Row as BSRow } from 'react-bootstrap';
 import {
   BoxInner as BoxInnerComponent,
   Title as BoxTitle,
   Paragraph as BoxParagraph,
 } from 'src/components/Box';
 import BSHero from 'src/components/Hero';
-import { HEADER_HEIGHT } from 'src/components/Header';
 import { breakpoints } from 'src/utils';
 
-export const TopParallaxContent = styled.div`
-  height: calc(60vh - ${HEADER_HEIGHT}px);
-
-  @media ${breakpoints.sm} {
-    height: calc(90vh - ${HEADER_HEIGHT}px);
-  }
+export const Row = styled(BSRow)`
+  padding-block: 50px;
 `;
 
-export const Container = styled(BSContainer)`
-  .row {
-    display: flex;
-    justify-content: center;
-  }
-`;
+export const Col = styled(BSCol)``;
 
 export const BoxInner = styled(BoxInnerComponent)`
   padding: 20px 20px;
@@ -33,28 +23,24 @@ export const BoxInner = styled(BoxInnerComponent)`
 `;
 
 export const Hero = styled(BSHero)`
-  padding-top: ${HEADER_HEIGHT}px;
-`;
+  padding: 0;
+  min-height: auto;
+  overflow: hidden;
 
-export const Wrapper = styled.div`
-  .bottomParallax {
-    overflow: visible !important;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  img {
+    object-position: center;
   }
 `;
 
 export const Title = styled(BoxTitle)`
-  font-size: 34px;
-  margin-bottom: 25px;
-
-  @media ${breakpoints.xl} {
-    font-size: 32px;
-  }
+  font-size: 44px;
+  margin-bottom: 22px;
+  font-weight: 400;
 
   @media ${breakpoints.md} {
-    font-size: 22px;
-    margin-top: -10px;
-    margin-bottom: 15px;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 `;
 
