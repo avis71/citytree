@@ -27,7 +27,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_BialikCircle_Liana.jpg"
+        src="../../assets/images/tours/magic_figurin_02_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -36,7 +36,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_BialikCircle_Liana.jpg"
+        src="../../assets/images/tours/magic_figurin_02_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -46,7 +46,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Batata_01_tami.jpeg"
+        src="../../assets/images/tours/magic_sage_02_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -55,7 +55,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Batata_01_tami.jpeg"
+        src="../../assets/images/tours/magic_sage_02_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -65,7 +65,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_AlonAviKabucha_01_Tami.jpeg"
+        src="../../assets/images/tours/tel_fire_02_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -74,7 +74,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_AlonAviKabucha_01_Tami.jpeg"
+        src="../../assets/images/tours/tel_fire_02_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -111,11 +111,10 @@ const Box: React.FC = () => (
         לרכישת סדרת הכישוף{' '}
       </LinkButton>
     </ButtonWrapper>
-    <br />
     <Paragraph>
       <b>
         * ניתן גם להזמין את תמי להרצאה או סדרת מפגשים משלכן:{' '}
-        <a href={PAGES.tamiSoilLectureForm}>בטופס הזה</a>
+        <a href={PAGES.tamiSoilLectureForm}>כאן</a>
       </b>
     </Paragraph>
   </BoxInner>

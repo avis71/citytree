@@ -68,12 +68,12 @@ const Header: React.FC = () => {
                       <NavDropdown.Item href={formatPath(PAGES.sessions)}>
                         עושות חיים בתל חובז
                       </NavDropdown.Item>
-                      <NavDropdown.Item href={formatPath(PAGES.tamiLecture)}>
+                      {/* <NavDropdown.Item href={formatPath(PAGES.tamiLecture)}>
                         הרצאה של תמי צרי
                       </NavDropdown.Item>
                       <NavDropdown.Item href={formatPath(PAGES.einatLecture)}>
                         הרצאה של עינת לסט
-                      </NavDropdown.Item>
+                      </NavDropdown.Item> */}
                       {/* <NavDropdown.Item href={formatPath(PAGES.virtual)}>
                         עץבעיר - ההרצאה
                       </NavDropdown.Item> */}

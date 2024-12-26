@@ -27,7 +27,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_BialikCircle_Liana.jpg"
+        src="../../assets/images/tours/magic_pentacle_02_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -36,7 +36,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_BialikCircle_Liana.jpg"
+        src="../../assets/images/tours/magic_pentacle_02_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -46,7 +46,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Batata_01_tami.jpeg"
+        src="../../assets/images/tours/soil_smell_01_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -55,7 +55,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Batata_01_tami.jpeg"
+        src="../../assets/images/tours/soil_smell_01_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -65,7 +65,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_AlonAviKabucha_01_Tami.jpeg"
+        src="../../assets/images/tours/soil_bowl_01_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -74,7 +74,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_AlonAviKabucha_01_Tami.jpeg"
+        src="../../assets/images/tours/soil_bowl_01_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -91,7 +91,7 @@ const Box: React.FC = () => (
       מהי אדמה, מתי ולמה היא סולקה? איך מחזירות את האדמה הביתה – אל הבית שלנו, הגוף שלנו, התודעה
       שלנו? מהי אדמיות? נוריד את כל זה לקרקע! נלמד איך להשיב חיים לאדמה, ונתחיל לעשות קומפוסט.
     </Paragraph>
-    <Paragraph>
+    <Paragraph grow>
       ימי רביעי ב-19:00, מפגשים בני שעתיים, מתחילים במדיטציה קצרה, ואז הרצאה, ואז לעיקר – דיון ומענה
       על שאלות מעשיות. כל ערמה תקבל את כל התשובות : ) המפגשים מלווים בחומרי לימוד כתובים ומוקלטים
       מהספרייה העשירה של עץבעיר.
@@ -110,11 +110,10 @@ const Box: React.FC = () => (
         לפרטים והרשמה לסדרת האדמה
       </LinkButton>
     </ButtonWrapper>
-    <br />
     <Paragraph>
       * ניתן גם להזמין את תמי להרצאה בפני המעגל שלכם:{' '}
       <a href={PAGES.tamiSoilLectureForm} target="_blank">
-        לטופס הזמנת הרצאה
+        להזמנת הרצאה
       </a>
     </Paragraph>
   </BoxInner>

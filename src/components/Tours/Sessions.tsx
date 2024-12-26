@@ -17,7 +17,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/Z06_0976.jpg"
+        src="../../assets/images/tours/Soil_Tel_Hubez_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -27,7 +27,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_07_Sq_.jpeg"
+        src="../../assets/images/tours/magic_avocado_02_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -36,7 +36,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_07_Sq_.jpeg"
+        src="../../assets/images/tours/magic_avocado_02_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -46,7 +46,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_03_Sq_.jpeg"
+        src="../../assets/images/tours/tel_rosmarin_05_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -55,7 +55,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_03_Sq_.jpeg"
+        src="../../assets/images/tours/tel_rosmarin_05_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -65,7 +65,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_01_Sq_.jpeg"
+        src="../../assets/images/tours/tel_nettels_01_700.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -74,7 +74,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Tami_Workshop_01_Sq_.jpeg"
+        src="../../assets/images/tours/tel_nettels_01_700.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -114,7 +114,7 @@ const Box: React.FC = () => (
     <Paragraph>
       * ניתן גם להזמין את תמי להרצאה או סדרת מפגשים משלכן: {''}
       <a href={PAGES.tamiSoilLectureForm} target="_blank">
-        בטופס הזה{' '}
+        כאן{' '}
       </a>
     </Paragraph>
   </BoxInner>

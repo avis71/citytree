@@ -27,7 +27,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Hibiscus_01_tami.jpg"
+        src="../../assets/images/tours/forag_couple_01_830.JPG"
         alt=""
         placeholder="none"
         width={175}
@@ -36,7 +36,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Hibiscus_01_tami.jpg"
+        src="../../assets/images/tours/forag_couple_01_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -46,7 +46,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Forage_01_tami.jpeg"
+        src="../../assets/images/tours/forag_karisa_01_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -55,7 +55,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Forage_01_tami.jpeg"
+        src="../../assets/images/tours/forag_karisa_01_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -65,7 +65,7 @@ const images = [
   {
     thumb: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Alon_Sq_.jpeg"
+        src="../../assets/images/tours/forag_leaf_01_830.jpg"
         alt=""
         placeholder="none"
         width={175}
@@ -74,7 +74,7 @@ const images = [
     ),
     full: (
       <StaticImage
-        src="../../assets/images/tours/CityTree_Alon_Sq_.jpeg"
+        src="../../assets/images/tours/forag_leaf_01_830.jpg"
         alt=""
         placeholder="none"
         layout="fixed"
@@ -91,7 +91,7 @@ const Box: React.FC = () => (
       מתחת לאף, מה אפשר לאכול ואיך אפשר לגדל. חוזרות הביתה עם תיק־ליקוט מלא כל-טוב מאכלים ולפעמים גם
       ייחורים. אחרי הסיור נשלח קובץ יפה עם כל הצמחים שפגשנו והמידע עליהם.
     </Paragraph>
-    <Paragraph>
+    <Paragraph grow>
       ד"ר אלון אלירן חוקר את הנסתר מן העין בעיר הגדולה כבר עשרים שנה לפחות. הידע שלו משתרע במחוזות
       הבוטניקה, הפואטיקה, הפיזיקה והמוזיקה. במפגש עם אלון אפשר לקבל תשובות על שאלות בענייני תזונה או
       גינון, אקלים או קונספירציה, וכשנחה עליו הרוח, אלון גם קורא משיריו.
@@ -100,6 +100,8 @@ const Box: React.FC = () => (
       <b>100 ש"ח</b> לסיור בודד
       <br />
       <b>672 ש"ח</b> למחזור של 8 סיורים
+      <br />
+      מחבקות מוזמנות לשלם על פי בחירתן!
     </Paragraph>
     <ButtonWrapper>
       <LinkButton
@@ -111,11 +113,10 @@ const Box: React.FC = () => (
         לסדרת הליקוט "מאלון ועד תות"{' '}
       </LinkButton>
     </ButtonWrapper>
-    <br />
     <Paragraph grow>
-      * ניתן גם להזמין סיור משלכם ולהתאימו לגודל הקבוצה ולצרכיה:{' '}
+      <b> * ניתן גם להזמין סיור מותאם אישית לקבוצה שלכם: {' '}</b>
       <a href={PAGES.alonForagingForm} target="_blank">
-        לטופס הזמנת סיור
+        להזמנת סיור
       </a>
     </Paragraph>
   </BoxInner>
