@@ -1,27 +1,24 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { Title, Paragraph, BoxInner, LinkButton } from 'src/components/Box';
+import { Container } from 'react-bootstrap';
+import { Title, Paragraph, BoxInner, Row, Col } from './styles';
+import {  LinkButton } from 'src/components/Box';
 import Hero from 'src/components/Hero';
 import image from 'src/assets/images/coming_home_bg.jpeg';
-import { PAGES, magicalEconomyUrl, collectionsURL } from 'src/constants';
+import { PAGES, hugTheTreeUrl, collectionsURL } from 'src/constants';
 import './styles.scss';
 
 function Workshops() {
   return (
-    <Hero image={image} boxColor="#342e1190" anchor="workshops">
+    <Hero image={image} boxColor="#342e1195" anchor="workshops">
       <Container className="workshops">
         <Row>
           <Col>
             <BoxInner>
-              <center>
-                <h1>תוכנית השיבה הביתה</h1>
-              </center>
+            <center><Title>תוכנית השיבה הביתה</Title></center>
             </BoxInner>
           </Col>
         </Row>
-      </Container>
-      <br />
-      <Container className="workshops">
+      
         <Row>
           <Col lg={6}>
             <BoxInner>
@@ -48,11 +45,10 @@ function Workshops() {
             </BoxInner>
             <br />
             <BoxInner color="#3f391dff">
-              <LinkButton href={PAGES.virtual}>
-                <Title>כל הפרטים על התוכנית - כאן</Title>
+              <LinkButton href={hugTheTreeUrl} color="#3f391dff" target="_hugTheTree">
+                כל הפרטים על התוכנית - כאן
               </LinkButton>
             </BoxInner>
-            <br />
           </Col>
           <Col lg={6}>
             <BoxInner>
@@ -62,7 +58,7 @@ function Workshops() {
                 אותנו ללמד אצלכן בחצר או בקורס.
               </Paragraph>
             </BoxInner>
-            <br />
+            <br /> <br />
             <BoxInner>
               <Paragraph>
                 <a href={PAGES.virtual}>לימוד בזום</a> - זו ההתמחות של תמי מאז ימי הקורונה. היא
@@ -70,7 +66,7 @@ function Workshops() {
                 (הממ... זה אותו דבר!) תמי לשירותכן אם החלטתן לנסות לעבור לצד השני של המראה.....
               </Paragraph>
             </BoxInner>
-            <br />
+            <br /> <br />
 
             <BoxInner>
               <Paragraph>

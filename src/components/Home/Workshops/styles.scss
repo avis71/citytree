@@ -1,16 +1,26 @@
 .workshops {
   color: #e6f1d6ff;
 
-  a, a:hover {
+  a {
     color: #d8fb84ff;
+  }
+  a:hover{
+    color: rgb(132, 186, 6);
   }
 }
 
 .workshops .box-button {
-  background-color: #3f391d50;
+  background-color: #3f391dff;
   color: #d8fb84ff !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  height: 100%;
+  width: 100%;
 
   &:hover {
     background-color: #3f391dff;
+    color: rgb(132, 186, 6) !important;
   }
 }
