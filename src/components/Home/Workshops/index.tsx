@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Title, Paragraph, BoxInner, Row, Col } from './styles';
-import {  LinkButton } from 'src/components/Box';
+import { LinkButton } from 'src/components/Box';
 import Hero from 'src/components/Hero';
 import image from 'src/assets/images/coming_home_bg.jpeg';
 import { PAGES, hugTheTreeUrl, collectionsURL } from 'src/constants';
@@ -14,11 +14,13 @@ function Workshops() {
         <Row>
           <Col>
             <BoxInner>
-            <center><Title>תוכנית השיבה הביתה</Title></center>
+              <center>
+                <Title>תוכנית השיבה הביתה</Title>
+              </center>
             </BoxInner>
           </Col>
         </Row>
-      
+
         <Row>
           <Col lg={6}>
             <BoxInner>
@@ -67,7 +69,6 @@ function Workshops() {
               </Paragraph>
             </BoxInner>
             <br /> <br />
-
             <BoxInner>
               <Paragraph>
                 <a href={collectionsURL} target="_patreon">
