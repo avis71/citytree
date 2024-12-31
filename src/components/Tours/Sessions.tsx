@@ -108,7 +108,7 @@ const Box: React.FC = () => (
         bgcolor="#385958"
         style={{ color: '#8fdef4ff' }}
       >
-        לפרטים והרשמה לחוביזות וכישופים{' '}
+        להרשמה למפגשים
       </LinkButton>
     </ButtonWrapper>
     <Paragraph>

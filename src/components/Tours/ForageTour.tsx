@@ -103,6 +103,7 @@ const Box: React.FC = () => (
       <br />
       מחבקות מוזמנות לשלם על פי בחירתן!
     </Paragraph>
+
     <ButtonWrapper>
       <LinkButton
         href={PAGES.urbanForagingSeries}
@@ -110,11 +111,12 @@ const Box: React.FC = () => (
         bgcolor="#1d4713ff"
         style={{ color: '#d8fb84ff' }}
       >
-        לסדרת הליקוט "מאלון ועד תות"{' '}
+        להרשמה לסיורים
       </LinkButton>
     </ButtonWrapper>
+
     <Paragraph grow>
-      <b> * ניתן גם להזמין סיור מותאם אישית לקבוצה שלכם: {' '}</b>
+      <b> * ניתן גם להזמין סיור מותאם אישית לקבוצה שלכם: </b>
       <a href={PAGES.alonForagingForm} target="_blank">
         להזמנת סיור
       </a>

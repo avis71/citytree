@@ -107,7 +107,7 @@ const Box: React.FC = () => (
         bgcolor="#532c10ff"
         style={{ color: '#e17645ff' }}
       >
-        לפרטים והרשמה לסדרת האדמה
+        להרשמה לסדרת האדמה
       </LinkButton>
     </ButtonWrapper>
     <Paragraph>
