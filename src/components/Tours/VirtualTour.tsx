@@ -120,7 +120,7 @@ const Box: React.FC = () => (
 );
 
 const VirtualTour: React.FC = () => (
-  <Tour bgcolor="#594537ff" anchor="virtual" box={<Box />} images={images} reverseLayout />
+  <Tour bgcolor="#594537ff" anchor="soil" box={<Box />} images={images} reverseLayout />
 );
 
 export default VirtualTour;

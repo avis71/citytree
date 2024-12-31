@@ -20,8 +20,8 @@ const image = {
 };
 
 const Page: React.FC<PageProps> = () => {
-  const pageTitle = 'עץבעיר - לימוד אקולוגיה עמוקה, ליקוט עירוני וכישוף עירוני';
-  const pageDesc = 'לימודי אקולוגיה עמוקה, הרצאות, סדנאות וסיורי ליקוט עירוני';
+  const pageTitle = 'עץבעיר - מרכז ידע לאקולוגיה עמוקה';
+  const pageDesc = 'חיבור לאקולוגיה עמוקה, השבת חיים לאדמה, סיורי ליקוט, כישוף!';
 
   return (
     <Layout>
